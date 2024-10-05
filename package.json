@@ -1,0 +1,58 @@
+{
+  "name": "karasu-lab-api",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "preview": "next build && next start",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@nestjs/swagger": "^7.4.2",
+    "@propelauth/nextjs": "^0.1.11",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.5.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "@types/jsonwebtoken": "^9.0.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "0.376.0",
+    "next": "^14.2.3",
+    "next-intl": "^3.20.0",
+    "next-swagger-doc": "^0.4.0",
+    "next-themes": "^0.3.0",
+    "openapi-types": "^12.1.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.3",
+    "swagger-ui-react": "^5.17.2",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@types/swagger-ui-react": "^4.18.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.0.2",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}

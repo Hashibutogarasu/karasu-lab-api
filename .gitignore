@@ -1,0 +1,8 @@
+.env
+.env.production
+
+node_modules
+
+.vercel
+.next
+.42c
