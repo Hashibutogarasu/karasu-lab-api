@@ -1,22 +1,30 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: 'Karasu Lab API Documentation',
+  name: 'Karasu Lab',
   description:
-    'This is the API documentation for the Karasu Lab project. It is a RESTful API that is used to manage the Karasu Lab project.',
+    'This is a site for Karasu Lab, a place for learning and sharing knowledge.',
   mainNav: [
     {
       title: 'Home',
       href: '/',
     },
     {
-      title: 'Doc',
-      href: '/api-doc/index.html',
+      title: 'Blog',
+      href: '/blog',
     },
+    {
+      title: 'API Docs',
+      href: 'https://api.karasu256.com/swagger',
+    },
+    {
+      title: 'Service Status',
+      href: 'https://karasu-lab.statuspage.io/',
+    }
   ],
   links: {
     twitter: 'https://twitter.com/Columba_Karasu',
     github: 'https://github.com/Hashibutogarasu/',
-    docs: 'https://karasu-lab-api.vercel.app/api-doc',
+    docs: 'https://api.karasu256.com/swagger',
   },
 };
